@@ -1,0 +1,19 @@
+{
+  "name": "front-face",
+  "version": "0.0.1",
+  "description": "A Programmable Reverse Proxy Server",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "reverse",
+    "proxy"
+  ],
+  "author": "Yang Li",
+  "license": "MIT",
+  "dependencies": {
+    "basic-auth": "^1.0.0",
+    "http-proxy": "^1.3.0",
+    "promise": "^5.0.0"
+  }
+}

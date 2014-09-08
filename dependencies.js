@@ -1,0 +1,11 @@
+var injector=require('./libs/injector').getInstance();
+injector.register('http',require('http'));
+injector.register('http-proxy',require('http-proxy'));
+injector.register('basic-auth',require('basic-auth'));
+injector.register('config',require('./config').config);
+injector.register('securityContext',require('./config').config.users);
+injector.register('route_table',require('./config').config.route_table);
+injector.register('logger',require('./libs/logger').logger);
+injector.register('Passport',require('./libs/passport').Passport);
+injector.register('router',require('./libs/router').router);
+injector.register('BaseHandler',require('./libs/base_handler').BaseHandler);
