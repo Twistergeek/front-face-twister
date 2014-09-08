@@ -64,7 +64,9 @@ This is a document of Chinese language. If you are interested at the other langu
 
 
     ./twisterd -port=30002 -daemon -rpcuser=user -rpcpassword=pwd -rpcallowip=127.0.0.1 -rpcport=40002
-     sudo node servers   #在ubuntu下面80或者443等端口监听必须是sudo 
+    
+    sudo node servers   #在ubuntu下面80或者443等端口监听必须是sudo 
+    
 
  6. 设置http跳转到https
 
